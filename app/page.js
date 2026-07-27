@@ -31,10 +31,13 @@ export default function Home() {
           <a className="button button-dark" href="#destaques">Conheça meu trabalho</a>
           <a className="text-link" href="#contato">Contato ↗</a>
         </div>
-        <div className="hero-media placeholder-media">
-          <span>FOTO PRINCIPAL</span>
-          <strong>XXXXXXXXXXX</strong>
-        </div>
+      <div className="hero-media">
+        <img
+    src="/aline.jpg"
+    alt="Aline Pereira"
+    className="hero-photo"
+      />
+    </div>
       </section>
 
       <section id="destaques" className="section shell">
@@ -114,12 +117,27 @@ export default function Home() {
           <div>
             <span className="contact-kicker">04 • CONTATO</span>
             <h2>Vamos<br />conversar.</h2>
-          </div>
-          <div className="contact-links">
-            <a href="#">E-mail <span>XXXXXXXXXXX ↗</span></a>
-            <a href="#">LinkedIn <span>XXXXXXXXXXX ↗</span></a>
-            <a href="#">Instagram <span>XXXXXXXXXXX ↗</span></a>
-          </div>
+<div className="contact-links">
+  <a href="mailto:aline.per@msn.com">
+    E-mail <span>aline.per@msn.com ↗</span>
+  </a>
+
+  <a
+    href="https://br.linkedin.com/in/alineper"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn <span>alineper ↗</span>
+  </a>
+
+  <a
+    href="https://www.instagram.com/alineper/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Instagram <span>@alineper ↗</span>
+  </a>
+</div>
         </div>
       </section>
 
